@@ -1,3 +1,4 @@
+cat > pages/index.js << 'EOF'
 import React, { useState } from 'react';
 import { Search, ArrowUp, ArrowDown, Clock, Box, Activity, ArrowRight } from 'lucide-react';
 import Head from 'next/head';
@@ -148,3 +149,4 @@ export default function DogeGoldExplorer() {
     </>
   );
 }
+EOF
